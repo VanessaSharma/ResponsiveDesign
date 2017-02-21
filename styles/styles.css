@@ -1,0 +1,9 @@
+h1{
+  color: lightblue;
+  font-style: italic;
+}
+
+.recipe{
+  flex-flow: wrap;
+  font-size: 12px;
+}
