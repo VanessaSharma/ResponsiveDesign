@@ -1,12 +1,15 @@
 h1{
   text-align: center;
-  color: lightblue;
+  color: #3399ff;
   font-style: italic;
   font-family: monospace;
   font-weight: bold;
   font-size: 75px;
 }
-
+p{
+  font-weight: bold;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
 h3{
   text-align: center;
   font-weight: bold;
@@ -24,16 +27,16 @@ iframe{
 }
 
 .recipe{
-  font-size: 16px;
+  font-size: 14px;
   text-align:left;
   font-style: italic;
-  font-family: sans-serif;
-  font-weight: normal;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-weight: bold;;
 }
 
 .component{
   width: 1250px;
-  border: 15px solid lightblue;
+  /*border: 15px solid #3399ff;*/
   padding: 15px;
   margin: 10px;
   display: block;
@@ -45,7 +48,7 @@ ul.nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: lightblue;
+    background-color: #3399ff;
 }
 
 ul.nav li {
@@ -86,4 +89,9 @@ ul.nav li.right {
   margin: 10px;
   display: block;
   position: static;
+}
+
+body{
+  background-color:
+ #bbff99;
 }
